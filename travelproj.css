@@ -1,0 +1,645 @@
+*{
+    margin:0cm;
+    padding:0cm;
+    box-sizing: border-box;
+}
+.logo img {
+    height: 3cm;
+    clip-path: circle(56% at 50% 50%);
+    position: relative;
+    top: 3mm;
+    left: 30mm;
+}
+
+.menu, a {
+    font-size: 0.46cm;
+    font-family: Montserrat;
+    font-weight: bolder;
+    color: black;
+    margin-top: 1.6cm;
+    margin-left: 0.3cm;
+    text-decoration: none;
+    padding: 0cm;
+}
+
+.menu {
+    margin-left: 15cm;
+}
+
+.navbar{
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 1cm;
+}
+
+.intro{
+    display: flex;
+    flex-direction: row;
+
+}
+.photo{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+img#one{
+    height:12cm;
+    width:19cm;
+    position: relative;
+    left:6.0cm;
+}
+
+img#two{
+    height:11cm;
+    width:8cm;
+    position: relative;
+    top:2cm;
+    left:-1.9cm;
+    border:6mm white solid;
+}
+
+.hy h1{
+    font-size: 1.4cm;
+    font-family: 'Antonio';
+    position: relative;
+    top:4cm;
+    left:3cm;
+}
+
+#short{
+    font-size: 0.5cm;
+    font-family: 'Montserrat';
+    font-weight: lighter;
+    position: relative;
+    top:4.5cm;
+    left:3cm;
+}
+
+.but1 button{
+    padding:0.5cm;
+    color:white;
+    background-color:rgb(6 153 99);
+    border:0.2mm solid green;
+    position:relative;
+    top:5.0cm;
+    left:3cm;
+}
+.but1 button:hover{
+    background-color:rgba(9, 180, 9, 0.404);
+}
+.but2 button{
+    padding:0.5cm;
+    color:black;
+    background-color:white;
+    border:0.1mm solid green;
+    position:relative;
+    top:3.58cm;
+    left:7cm;
+}
+.but2 button:hover{
+    background-color:rgba(236, 233, 233, 0.322);
+}
+
+.intro{
+    margin-bottom: 4.6cm;
+}
+
+.body2{
+    background-image: url("bg6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow:hidden;
+}
+
+.content{
+    margin:1cm;
+    padding:0.9cm;
+    width:13cm;
+    height:21cm;
+    font-size: larger;
+    text-align: justify;
+    color:white;
+    background:#1f23241f;
+}
+#zigg{
+    height:4cm;
+    width:5cm;
+    position: relative;
+    left:3.9cm;
+    top:5cm;
+}
+.content h1{
+    font-size: 1cm;
+    font-family:'Roboto';
+}
+.content h3{
+    font-size: 0.7cm;
+    font-family:'Roboto';
+}
+.content p{
+    font-size: 0.5;
+    font-family:'Roboto';
+}
+.result{
+    background-image: url("bg9.jpg");
+    background-repeat: no-repeat;
+    margin-top: -1.0cm;
+}
+
+.result h1{
+    font-size: 1.4cm;
+    font-weight: lighter;
+    color:white;
+    text-align: center;
+    margin-top: 0.5cm;
+    padding:0.5cm;
+}
+.grid{
+    display:grid;
+    grid-template-columns: 4fr 4fr 4fr 4fr;
+}
+
+.item{
+    font-size:1.2cm;
+    color:#00a500a1;
+    padding-left:3.9cm;
+}
+.item1{
+    font-size:0.7cm;
+    color:white;
+    padding-left:3.9cm;
+}
+
+.tab{
+    color:white;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    padding:0.25cm;
+}
+.tab{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-gap:0.5cm;
+    margin-top:1.5cm;
+    margin-left:1.5cm;
+    margin-right:1.5cm;
+
+}
+
+#date1,#date2{
+    height:1.3cm;
+    font-size:0.6cm;
+}
+
+#place1,#place2{
+    height:1.5cm;
+    font-size: 1cm;
+}
+#msg1,#msg2{
+    height:3cm;
+    font-size:0.6cm;
+}
+
+.t1,.t2{
+    height:15cm;
+    width:15cm;
+}
+.t1{
+    margin-left: 1cm;
+    background-image: url("pic1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.t1 h5,
+.t2 h5{
+    font-size: 0.5cm;
+    font-weight: lighter;
+    position:relative;
+    top:7.9cm;
+    padding:0.35cm;
+    background-color: rgba(0, 0, 0, 0.37);
+    position:relative;
+    top:7.47cm;
+    background-size: cover;
+    overflow: hidden;
+
+}
+.t1 h3,
+.t2 h3{
+    font-size: 0.85cm;
+    position:relative;
+    top:7.4cm;
+    padding:0.35cm;
+    background-color: rgba(0, 0, 0, 0.37);
+    background-size: cover;
+    overflow: hidden;
+
+}
+.t1 p,
+.t2 p{
+    font-size:0.6cm;
+    position:relative;
+    top:7.5cm;
+    padding:0.35cm;
+    background-color: rgba(0, 0, 0, 0.37);
+    background-size: cover;
+    overflow: hidden;
+
+
+}
+.t2{
+    margin-right:1cm;
+    background-image: url("pic2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.but3 button{
+    padding:0.5cm;
+    color:white;
+    background-color:rgb(6 153 99);
+    border:0.2mm solid green;
+    position: relative;
+    top:1cm;
+    left:17cm;
+}
+#zig{
+    height:4cm;
+    width:5cm;
+    position: relative;
+    left:16cm;
+    top:0.6cm;
+}
+.body4 h1{
+    text-align: center;
+    color:rgb(6 153 99);
+    font-family: 'Poppins';
+    font-size: 1.5cm;
+    font-weight: bolder;
+    position: relative;
+    top:0cm;
+    left:0.6cm;
+}
+
+.body4 h3{
+    color:rgb(26, 25, 25);
+    font-size: 0.6cm;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    margin-left: 1cm;
+    
+
+
+}
+.body4 h3 a{
+    color:rgb(6 153 99);
+    font-size: 0.5cm;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+.images img{
+    height:7cm;
+    width:7cm;
+    margin-left: 1.6cm;
+    margin-top:0.8cm;
+    margin-bottom:0.8cm;
+}  
+
+.comment{
+    border-left:0.2mm solid rgba(0, 0, 0, 0.322);
+    background-color: rgba(128, 128, 128, 0.144);
+    height:11cm;
+}
+.gray{
+    padding:1cm;
+    padding-top:2cm;
+    padding-left: 4cm;
+    height:12cm;
+    width:23cm;
+}
+#gray{
+    border-left:gray solid 0.2mm;
+}
+
+#comma img{
+    color:rgb(6, 99, 6);
+    height:2cm;
+    width:4cm;
+    margin-left:0.8cm;
+
+}
+
+#com{
+    font-size:0.7cm;
+    font-weight: lighter;
+    margin-left:2cm;
+    text-align:justify;
+}
+#n{
+    font-size:0.6cm;
+    font-weight: lighter;
+    margin-left:2cm;
+    color:rgb(4, 92, 4);
+}
+.body5{
+    background-color: #000000d4;
+}
+
+.body5 h1{
+    font-size: 1.2cm;
+    font-family: 'Poppins';
+    font-weight: bolder;
+    text-align: center;
+    color:white;
+    margin-top: -0.5cm;
+}
+.bodya{
+    position:relative;
+    top:0.2cm;
+}
+.grid1{
+    padding:1.7cm;
+    display:grid;
+    grid-template-columns: 5fr 5fr 5fr;
+    grid-template-rows: 6cm 1cm 2.7cm 4cm;
+    grid-gap:2rem;
+    color:white;
+    text-align: justify;
+
+}
+
+.grid1 img{
+    height:6cm;
+    width:9cm;
+}
+.itemb{
+    font-size:0.4cm;
+    font-weight: lighter;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.itemc{
+    font-size:0.4cm;
+    font-weight: lighter;
+    font-family: 'Poppins';
+
+}
+
+.itemab{
+    height:2cm;
+    font-family: 'Poppins';
+    font-size: 0.6cm;
+    margin-top:0.8cm;
+}
+.bodya h3{
+    font-family:'Poppins';
+    color:white;
+    text-align: center;
+    background-color:#ffffff4d;
+    width:11cm;
+    margin-left:12cm;
+
+}
+
+#fb,
+#yt,
+#ins{
+    height:1cm;
+    width:1cm;
+    size:2cm;
+    margin-left:1cm;
+}
+
+.bodya{
+    background-color: rgb(6 153 99);
+}
+.icn{
+    position:relative;
+    left:14cm;
+    padding-bottom: 3cm;
+
+}
+.custom-shape-divider-top-1619241489 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1619241489 svg {
+    position: relative;
+    display: inline-block;
+    width: calc(100% + 1.3px);
+    height: 71px;
+}
+
+.custom-shape-divider-top-1619241489 .shape-fill {
+    fill: #069963;
+}
+.gallery{
+    background-color: #f3f4f5;
+    height:7cm;
+}
+.gallery h1{
+    font-size: 1.3cm;
+    text-align: center;
+    color:#069963;
+    font-family: 'Poppins';
+    padding-top: 1cm;
+}
+#ziggg{
+    height:3cm;
+    width:4cm;
+    position:relative;
+    left:15.6cm;
+    top:-1cm;
+}
+#gall img{
+    height:10cm;
+    width:10cm;
+    margin:0.5cm;
+}
+#gall{
+    margin-left: 1.3cm;
+    background-color: #f3f4f5;
+}
+.fall{
+    background-image: url('b.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:24cm;
+}
+.falll{
+    background-color: white;
+    width:15cm;
+    height:21cm;
+    padding:0.5cm;
+    position: relative;
+    left:11cm;
+    top:2cm;
+}
+.falll img{
+    height:3cm;
+    width:4cm;
+    position:relative;
+    left:5cm;
+    top:0cm;
+}
+.falll p{
+    font-size: 0.5cm;
+    font-family: 'Poppins';
+    text-align: center;
+    margin-bottom: 0.5cm;
+    padding:0.6cm;
+}
+.falll input{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:0.5cm;
+    width:12cm;
+    margin:0.8cm;
+    border: none;
+    background-color: rgb(34 42 47 / 12%);
+
+}
+.falll button{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:0.5cm;
+    width:12cm;
+    margin:0.8cm;
+    background-color:#069963;
+    color:white;
+    font-weight: bolder;
+    border: none;
+}
+
+.foot{
+    display: grid;
+    grid-template-columns: 4fr 2fr 3fr 2fr 4fr;
+    background-color:#282828;
+    color:white;
+}
+
+.fst img{
+    position: relative;
+    top:3cm;
+    left:2cm;
+    height: 3cm;
+    clip-path:circle(46% at 51% 51%);
+    margin-bottom: 0.5cm;
+
+}
+.fst h4{
+    padding-top: 3cm;
+    padding-left:1cm;
+    font-size: 0.5cm;
+    font-family: 'Poppins';
+    font-weight: bold;
+    margin-bottom: 0.5cm;
+
+
+}
+.sec,
+.thr,
+.fou,
+.fiv{
+    padding-top: 6cm;
+    padding-left: 0.7cm;
+}
+.sec a{
+    font-size: 0.5cm;
+    font-family: 'Poppins';
+    text-decoration: none;
+    color:white;
+    margin-bottom: 0.5cm;
+
+
+}
+.sec a:hover{
+    text-decoration: underline;
+    color:#069963;
+
+}
+.thr a{
+    font-size: 0.5cm;
+    font-family: 'Poppins';
+    text-decoration: none;
+    color:white;
+    margin-bottom: 0.5cm;
+
+}
+.thr a:hover{
+    text-decoration: underline;
+    color:#069963;
+
+}
+.fou a{
+    font-size: 0.5cm;
+    font-family: 'Poppins';
+    text-decoration: none;
+    color:white;
+    padding-bottom: 0.5cm;
+
+}
+.fiv{
+    font-size: 0.5cm;
+    font-family: 'Poppins';
+    text-decoration: none;
+    color:white;
+
+}
+.ic{
+    display:flex;
+    flex-direction: row;
+    
+}
+.fiv input{
+    padding:0.5cm;
+    margin:0.4cm;
+    width:6cm;
+    background-color:rgb(255 255 255 / 93%);
+    border:none;
+}
+.fiv button{
+    padding:0.5cm;
+    margin:0.4cm;
+    width:6cm;
+    background-color: #069963;
+    border:none;
+     
+     color:white;
+}
+.fiv button:hover{
+    background-color: whitesmoke;
+    color:white;
+}
+.last{
+    display:flex;
+    flex-direction: row;
+    font-family: 'Poppins';
+    background-color:#282828;
+    color:white;
+    padding-bottom: 1.2cm;
+}
+.lef{
+    padding-top: 0.6cm;
+    padding-right: 25cm;
+    padding-left: 2cm;
+    border-top: 0.2mm white solid;
+}
+.rig{
+    padding-top: 0.6cm;
+    border-top: 0.2mm whitesmoke solid;
+    padding-right:2cm;
+}
